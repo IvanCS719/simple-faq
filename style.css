@@ -3,3 +3,25 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+
+.header__faq{
+    background-color: #ffffff;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header__faq-title{
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.header__faq-description{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+}
