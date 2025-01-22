@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    color: #030616;
 }
 
 .header__faq{
@@ -24,4 +25,55 @@ body {
     font-size: 1rem;
     font-weight: 400;
     margin: 0;
+}
+
+.main__faq{
+    background-color: #F8FAFC;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.main__faq__article, .hr__faq{
+    width: 620px;
+}
+
+.hr__faq{
+    border: 0;
+    height: 1px;
+    background-color: #D2D5DA;
+}
+
+.main__faq__article__header-question{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.main__faq__article-answer{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 26px;
+}
+
+.main__faq__article-link{
+    text-decoration: none;
+    color: #4E80EE;
+}
+
+.main__faq__article_answer-stepList{
+    line-height: 2.1;
+    padding-left: 20px;
+}
+
+.main__faq__article-boldText{
+    font-weight: 700;
+}
+
+.main__faq__article-footer{
+    margin-top: 22px;
 }
