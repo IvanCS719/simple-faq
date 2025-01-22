@@ -1,79 +1,98 @@
+/* Import the 'Inter' font family from Google Fonts with specific settings */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+/* Global styles for the entire document */
 body {
+    /* Set the default font family to 'Inter', falling back to sans-serif */
     font-family: 'Inter', sans-serif;
+    /* Set the default text color */
     color: #030616;
 }
 
-.header__faq{
+/* Styles for the header section of the FAQ page */
+.header__faq {
+    /* Background color of the header */
     background-color: #ffffff;
+    /* Set the height of the header */
     height: 200px;
+    /* Use flexbox for layout */
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center elements vertically */
+    align-items: center; /* Center elements horizontally */
+    gap: 1rem; /* Add spacing between child elements */
 }
 
-.header__faq-title{
-    font-size: 2.25rem;
-    font-weight: 600;
-    margin: 0;
+/* Styles for the FAQ page title */
+.header__faq-title {
+    font-size: 2.25rem; /* Large font size for the title */
+    font-weight: 600; /* Semi-bold font weight */
+    margin: 0; /* Remove default margins */
 }
 
-.header__faq-description{
-    font-size: 1rem;
-    font-weight: 400;
-    margin: 0;
+/* Styles for the FAQ description text */
+.header__faq-description {
+    font-size: 1rem; /* Standard font size */
+    font-weight: 400; /* Regular font weight */
+    margin: 0; /* Remove default margins */
 }
 
-.main__faq{
-    background-color: #F8FAFC;
-    padding: 60px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 32px;
+/* Styles for the main content of the FAQ page */
+.main__faq {
+    background-color: #F8FAFC; /* Light gray background color */
+    padding: 60px 0; /* Add vertical padding */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    gap: 32px; /* Add spacing between child elements */
 }
 
-.main__faq__article, .hr__faq{
-    width: 620px;
+/* Common styles for articles and horizontal rule inside the main section */
+.main__faq__article, .hr__faq {
+    width: 620px; /* Set a fixed width */
 }
 
-.hr__faq{
-    border: 0;
-    height: 1px;
-    background-color: #D2D5DA;
+/* Styles for the horizontal rule separating FAQ articles */
+.hr__faq {
+    border: 0; /* Remove default border */
+    height: 1px; /* Set height for the rule */
+    background-color: #D2D5DA; /* Light gray color for the rule */
 }
 
-.main__faq__article__header-question{
-    margin: 0;
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 32px;
+/* Styles for the question headers in each FAQ article */
+.main__faq__article__header-question {
+    margin: 0; /* Remove default margins */
+    font-size: 1.5rem; /* Medium font size */
+    font-weight: 600; /* Semi-bold font weight */
+    margin-bottom: 32px; /* Add spacing below the question */
 }
 
-.main__faq__article-answer{
-    font-weight: 400;
-    font-size: 1rem;
-    margin-top: 0;
-    margin-bottom: 26px;
+/* Styles for the answer text in FAQ articles */
+.main__faq__article-answer {
+    font-weight: 400; /* Regular font weight */
+    font-size: 1rem; /* Standard font size */
+    margin-top: 0; /* Remove default top margin */
+    margin-bottom: 26px; /* Add spacing below the answer */
 }
 
-.main__faq__article-link{
-    text-decoration: none;
-    color: #4E80EE;
+/* Styles for links inside FAQ articles */
+.main__faq__article-link {
+    text-decoration: none; /* Remove underline from links */
+    color: #4E80EE; /* Blue color for links */
 }
 
-.main__faq__article_answer-stepList{
-    line-height: 2.1;
-    padding-left: 20px;
+/* Styles for ordered and unordered lists inside FAQ articles */
+.main__faq__article_answer-stepList {
+    line-height: 2.1; /* Set line height for better readability */
+    padding-left: 20px; /* Add left padding for list indentation */
 }
 
-.main__faq__article-boldText{
-    font-weight: 700;
+/* Styles for bold text inside FAQ articles */
+.main__faq__article-boldText {
+    font-weight: 700; /* Bold font weight */
 }
 
-.main__faq__article-footer{
-    margin-top: 22px;
+/* Styles for the footer of each FAQ article */
+.main__faq__article-footer {
+    margin-top: 22px; /* Add spacing above the footer */
 }
